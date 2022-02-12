@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.back-img {
+    width: 100vw;
+    height: 75vh;
+    /* background-image: url("back-tech-gad.png"); */
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    background-size: cover;
+}
+
+.nav-bar {
+    text-decoration: none;
+    margin-right: 5%;
+    color: red;
+}
+
+.navbar-links {
+    text-decoration: none;
+    float: right;
+    margin: 3%;
+    margin-right: 3%;
+    color:orange;
+}
