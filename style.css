@@ -1,34 +1,135 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+body {
+  background-color: rgb(226, 223, 218);
+}
 .back-img {
-    width: 100vw;
-    height: 75vh;
-    background-image: url("back-tech-gad.png");
-    background-repeat: no-repeat;
-    background-color: antiquewhite;
-    background-size: cover;
+  width: 100%;
+  height: 80vh;
+  background-image: url("back-tech-gad.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+    overflow: hidden;
+    position: fixed;
+  height: 80px;
+  width: 100%;
+  /* background-color: rgba(241, 237, 237, 0.4); */
+  background-color: rgba(78, 79, 82, 0.4);
+  background-image: linear-gradient(to left, rgba(229, 226, 226, 0.746) , #353531c9);
 }
 
-.nav-bar {
-    text-decoration: none;
-    margin-right: 5%;
-    color: red;
-}
-
-.navbar-links {
-    text-decoration: none;
-    float: right;
-    margin: 10px;
-    margin-right: 3px;
-    color:orange;
-}
-.navbar-main {
-    text-decoration: none;
+.logo {
+     margin-top: 0.4%;
     float: left;
+    width: 70px;
+    height: 70px;
+}
+
+.navbar ul {
+  /* float: right; */
+  margin-left: 3%;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 29px 2%;
+  display: inline-block;
+}
+
+a {
+  /* margin: 40px; */
+  margin: 40px 0%;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+.home:hover {
+  color: #ecb556;
+}
+.back-imgtwo {
+  padding-bottom: 19rem;
+  padding-top: 15px;
+}
+.ac {
+  margin-top: 30px;
+  text-align: center;
+}
+.pone {
+  margin-top: 10px;
+  text-align: center;
+}
+.ai {
+  margin-top: 30px;
+  text-align: center;
+}
+.ptwo {
+  margin-top: 10px;
+  text-align: center;
+}
+.hr {
+  width: 10%;
+  margin: auto;
+  border: 0.5px solid black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.au {
+  margin-top: 19rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.manvanthone {
+    border-radius: 30px;
     margin: 10px;
-    margin-left: 5px;
-    color:orange;
+    width:60%;
+    height: 450px;
+    float: right;
+}
+.manvanthtwo {
+    border-radius: 30px;
+    margin: 10px;
+    width:60%;
+    height: 450px;
+    float: left;
+}
+.manvanththree {
+    border-radius: 30px;
+    margin: 10px;
+    width:60%;
+    height: 450px;
+    float: right;
+}
+.manvanthfour {
+    border-radius: 30px;
+    margin: 10px;
+    width:60%;
+    height: 450px;
+    float: left;
+}
+
+.manvanthfive {
+    border-radius: 30px;
+    margin: 10px;
+    width:70%;
+    height: 450px;
+    float: right;
+}
+
+.m {
+    margin-top: 180px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.mone {
+    text-align: center;
+}
+
+.img-div {
+    height: 400px;
 }
