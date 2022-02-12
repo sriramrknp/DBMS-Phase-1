@@ -6,7 +6,7 @@
 .back-img {
     width: 100vw;
     height: 75vh;
-    /* background-image: url("back-tech-gad.png"); */
+    background-image: url("back-tech-gad.png");
     background-repeat: no-repeat;
     background-color: antiquewhite;
     background-size: cover;
@@ -21,7 +21,14 @@
 .navbar-links {
     text-decoration: none;
     float: right;
-    margin: 3%;
-    margin-right: 3%;
+    margin: 10px;
+    margin-right: 3px;
+    color:orange;
+}
+.navbar-main {
+    text-decoration: none;
+    float: left;
+    margin: 10px;
+    margin-left: 5px;
     color:orange;
 }
