@@ -1,110 +1,123 @@
+/* Group 11, Phase-1 Project, CSS file. */
+
+/* Sets to the whole site. */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* Body */
 body {
-  background-color: rgb(226, 223, 218);
+    background-color: rgb(226, 223, 218);
 }
+
+/* Top Backround image. */
 .back-img {
-  width: 100%;
-  height: 80vh;
-  background-image: url("back-tech-gad.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+    width: 100%;
+    height: 80vh;
+    background-image: url("back-tech-gad.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+/* Navigation bar */
 .navbar {
     overflow: hidden;
     position: fixed;
-  height: 80px;
-  width: 100%;
-  /* background-color: rgba(241, 237, 237, 0.4); */
-  background-color: rgba(78, 79, 82, 0.4);
-  background-image: linear-gradient(to left, rgba(229, 226, 226, 0.746) , #353531c9);
+    height: 80px;
+    width: 100%;
+    background-color: rgba(78, 79, 82, 0.4);
+    background-image: linear-gradient(to left, rgba(229, 226, 226, 0.746) , #353531c9);
 }
 
+/* Logo */
 .logo {
-     margin-top: 0.4%;
+    margin-top: 0.4%;
     float: left;
     width: 70px;
     height: 70px;
 }
 
 .navbar ul {
-  /* float: right; */
-  margin-left: 3%;
+    /* float: right; */
+    margin-left: 3%;
 }
 .navbar ul li {
-  list-style: none;
-  margin: 29px 2%;
-  display: inline-block;
+    list-style: none;
+    margin: 29px 2%;
+    display: inline-block;
 }
 
-a {
-  /* margin: 40px; */
-  margin: 40px 0%;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: white;
+/* Navigation bar links. */
+.home {
+    margin: 40px 0%;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* transition: transform 0.2s; */
+    color: white;
 }
+
+/* Hover style. */
 .home:hover {
-  color: #ecb556;
+    color: #ecb556;
 }
+
+
 .back-imgtwo {
-  padding-bottom: 19rem;
-  padding-top: 15px;
+    padding-bottom: 19rem;
+    padding-top: 15px;
 }
+
+/* About college. */
 .ac {
-  margin-top: 30px;
-  text-align: center;
+    margin-top: 30px;
+    text-align: center;
 }
+
+
 .pone {
-  margin-top: 10px;
-  text-align: center;
+    margin-top: 10px;
+    text-align: center;
 }
+
+/* About instructor. */
 .ai {
-  margin-top: 30px;
-  text-align: center;
+    margin-top: 30px;
+    text-align: center;
 }
+
+
 .ptwo {
-  margin-top: 10px;
-  text-align: center;
+    margin-top: 10px;
+    text-align: center;
 }
+
+/* Horizontal line style. */
 .hr {
-  width: 10%;
-  margin: auto;
-  border: 0.5px solid black;
-  margin-top: 30px;
-  margin-bottom: 30px;
+    width: 10%;
+    margin: auto;
+    border: 0.5px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+/* About US. */
 .au {
-  margin-top: 19rem;
-  margin-bottom: 30px;
-  text-align: center;
+     margin-top: 19rem;
+     margin-bottom: 30px;
+     text-align: center;
 }
 
-.manvanthone {
+.manvanth {
     border-radius: 30px;
     margin: 10px;
     width:60%;
     height: 450px;
     float: right;
 }
-.manvanthtwo {
-    border-radius: 30px;
-    margin: 10px;
-    width:60%;
-    height: 450px;
-    float: left;
-}
-.manvanththree {
-    border-radius: 30px;
-    margin: 10px;
-    width:60%;
-    height: 450px;
-    float: right;
-}
-.manvanthfour {
+
+.heamanth {
     border-radius: 30px;
     margin: 10px;
     width:60%;
@@ -112,7 +125,23 @@ a {
     float: left;
 }
 
-.manvanthfive {
+.ramsunil {
+    border-radius: 30px;
+    margin: 10px;
+    width:60%;
+    height: 450px;
+    float: right;
+}
+
+.sriram {
+    border-radius: 30px;
+    margin: 10px;
+    width:60%;
+    height: 450px;
+    float: left;
+}
+
+.rudra {
     border-radius: 30px;
     margin: 10px;
     width:70%;
